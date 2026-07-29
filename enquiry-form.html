@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>About|Triangle Properties | Trusted Real Estate Solutions</title>
+
+    <meta name="description"
+        content="Triangle Properties offers trusted residential, commercial and investment property solutions.">
+
+    <meta name="keywords"
+        content="Triangle Properties, Real Estate, Properties, Villas, Land, Commercial, Residential">
+
+    <meta name="author" content="Triangle Properties">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/images/logo/fav-icon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Theme -->
+    <script>
+
+        tailwind.config = {
+
+            theme: {
+
+                extend: {
+
+                    colors: {
+
+                        primary: "#0F172A",
+                        secondary: "#1E293B",
+                        gold: "#C9A227",
+                        light: "#F8FAFC",
+                        dark: "#020617",
+                        muted: "#64748B"
+
+                    },
+
+                    fontFamily: {
+
+                        heading: ["Outfit", "sans-serif"],
+                        body: ["Inter", "sans-serif"]
+
+                    },
+
+                    boxShadow: {
+
+                        card: "0 10px 30px rgba(0,0,0,.08)",
+                        luxury: "0 20px 50px rgba(15,23,42,.12)"
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    </script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/custom.css">
+
+    <script src="./assets/js/properties.js"></script>
+
+</head>
+
+<body class="font-body bg-white text-primary antialiased">
+
+    <!-- Header -->
+    <div id="navbar"></div>
+
+    <!-- Main -->
+<main id="main-content">
+    <!-- ================= ABOUT HERO ================= -->
+
+<!-- ================= PAGE BREADCRUMB ================= -->
+
+<section class="relative pt-44 pb-28 overflow-hidden">
+
+    <!-- Background -->
+
+    <div class="absolute inset-0">
+
+        <img
+            src="./assets/images/about/banner.jpg"
+            alt="About Triangle Properties"
+            class="w-full h-full object-cover">
+
+        <div class="absolute inset-0 bg-primary/80"></div>
+
+    </div>
+
+    <!-- Content -->
+
+    <div class="relative max-w-7xl mx-auto px-6">
+
+        <div class="text-center max-w-3xl mx-auto">
+
+            <!-- Breadcrumb -->
+
+                        <!-- Page Title -->
+
+            <h1
+                class="font-heading text-5xl md:text-6xl font-bold text-white">
+
+                Enquries    
+
+            </h1>
+
+
+
+            <nav class="flex items-center justify-center gap-3 text-gray-300 mb-6">
+
+                <a
+                    href="index.html"
+                    class="hover:text-gold transition">
+
+                    Home
+
+                </a>
+
+                <i data-lucide="chevron-right"
+                    class="w-4 h-4"></i>
+
+                <span class="text-white">
+
+                   Enquries 
+
+                </span>
+
+            </nav>
+
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ENQUIRY FORM ================= -->
+
+<section class="py-24 bg-slate-50">
+
+<div class="max-w-7xl mx-auto px-6">
+
+
+<div class="grid lg:grid-cols-2 gap-12 items-center">
+
+
+<!-- Left Content -->
+
+<div>
+
+
+<span
+class="inline-flex px-5 py-2 rounded-full bg-gold/10 text-gold font-semibold">
+
+PROPERTY ENQUIRY
+
+</span>
+
+
+<h2
+class="font-heading text-5xl font-bold text-primary mt-6 leading-tight">
+
+Let's Find Your
+Dream Property
+
+</h2>
+
+
+<p
+class="mt-6 text-lg text-gray-600 leading-8">
+
+Share your requirements with our property experts.
+We will contact you with the best options.
+
+</p>
+
+
+
+<div class="space-y-5 mt-10">
+
+
+<div class="flex items-center gap-4">
+
+
+<div
+class="w-12 h-12 rounded-xl bg-gold/10 flex items-center justify-center">
+
+<i data-lucide="phone"
+class="text-gold"></i>
+
+</div>
+
+
+<div>
+
+<h4 class="font-semibold">
+
+Call Us
+
+</h4>
+
+<p class="text-gray-500">
+
+88389 57874
+
+</p>
+
+</div>
+
+
+</div>
+
+
+
+
+<div class="flex items-center gap-4">
+
+
+<div
+class="w-12 h-12 rounded-xl bg-gold/10 flex items-center justify-center">
+
+<i data-lucide="message-circle"
+class="text-gold"></i>
+
+</div>
+
+
+<div>
+
+<h4 class="font-semibold">
+
+Quick Response
+
+</h4>
+
+<p class="text-gray-500">
+
+Within 24 hours
+
+</p>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<!-- Form -->
+
+
+<div
+class="bg-white rounded-[32px] shadow-luxury p-10">
+
+
+<form id="enquiryForm"
+class="space-y-6">
+
+
+<input
+type="hidden"
+id="propertyId"
+value="">
+
+
+<div>
+
+
+<label class="font-medium">
+
+Full Name
+
+</label>
+
+
+<input
+id="name"
+type="text"
+placeholder="Enter your name"
+required
+class="w-full mt-2 px-5 py-4 rounded-xl border border-gray-200 focus:outline-none focus:border-gold">
+
+
+</div>
+
+
+
+
+<div>
+
+
+<label class="font-medium">
+
+Phone Number
+
+</label>
+
+
+<input
+id="phone"
+type="tel"
+placeholder="Enter phone number"
+required
+class="w-full mt-2 px-5 py-4 rounded-xl border border-gray-200 focus:outline-none focus:border-gold">
+
+
+</div>
+
+
+
+
+<div>
+
+
+<label class="font-medium">
+
+Email Address
+
+</label>
+
+
+<input
+id="email"
+type="email"
+placeholder="Enter email address"
+class="w-full mt-2 px-5 py-4 rounded-xl border border-gray-200 focus:outline-none focus:border-gold">
+
+
+</div>
+
+
+
+
+<div>
+
+
+<label class="font-medium">
+
+Message
+
+</label>
+
+
+<textarea
+
+id="message"
+
+rows="4"
+
+placeholder="I am interested in property..."
+
+class="w-full mt-2 px-5 py-4 rounded-xl border border-gray-200 focus:outline-none focus:border-gold"></textarea>
+
+
+</div>
+
+
+
+
+<button
+
+type="submit"
+
+class="w-full bg-gold hover:bg-yellow-600 transition text-white py-4 rounded-full font-semibold">
+
+
+Submit Enquiry
+
+
+</button>
+
+
+
+</form>
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+</main>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!-- Component Loader -->
+    <script src="./assets/js/components.js"></script>
+
+    <!-- Main JS -->
+    <script src="./assets/js/app.js"></script>
+
+    <script type="module" src="./assets/js/enquiry.js"></script>
+
+</body>
+
+</html>

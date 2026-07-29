@@ -1,0 +1,141 @@
+<header id="header"
+    class="fixed top-0 left-0 w-full z-50 bg-transparent transition-all duration-500">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <nav class="h-24 flex items-center justify-between">
+
+            <!-- Logo -->
+
+            <a href="index.html" class="flex items-center gap-3">
+
+                <!-- Logo -->
+                <!-- <img src="./assets/images/logo/logo.png" class="h-12" alt=""> -->
+
+                <div>
+
+                    <h2 class="font-heading text-2xl font-bold logo-text text-white">
+                        Triangle Properties
+                    </h2>
+
+                    <p class="logo-subtitle text-xs uppercase tracking-[4px] text-gray-300">
+                        Real Estate
+                    </p>
+
+                </div>
+
+            </a>
+
+            <!-- Desktop Menu -->
+
+            <ul class="hidden lg:flex items-center gap-10">
+
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+
+                <li><a href="about.html" class="nav-link">About</a></li>
+
+                <li><a href="services.html" class="nav-link">Services</a></li>
+
+                <li><a href="properties.html" class="nav-link">Properties</a></li>
+
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+
+            </ul>
+
+            <!-- Right -->
+
+            <div class="hidden lg:flex items-center gap-4">
+
+                <a href="tel:8838957874"
+                    class="btn border border-gold text-white hover:bg-gold hover:text-white px-5 py-3 rounded-full transition duration-300">
+
+                    Call Now
+
+                </a>
+
+                <a href="enquiry-form.html"
+                    class="bg-gold hover:bg-yellow-600 text-white px-6 py-3 rounded-full shadow-lg transition duration-300">
+
+                    Enquire Now
+
+                </a>
+
+            </div>
+
+            <!-- Mobile Button -->
+
+            <button id="menuBtn"
+                class="lg:hidden">
+
+                <i data-lucide="menu"
+                    class="w-7 h-7 text-white"></i>
+
+            </button>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<!-- Overlay -->
+
+<div id="overlay"
+    class="fixed inset-0 bg-black/60 backdrop-blur-sm hidden z-40"></div>
+
+<!-- Mobile Menu -->
+
+<aside id="mobileMenu"
+    class="fixed top-0 right-[-100%] w-80 h-screen bg-white shadow-2xl transition-all duration-500 z-50">
+
+    <div class="flex items-center justify-between p-6 border-b">
+
+        <h2 class="font-heading text-xl font-bold">
+            Triangle Properties
+        </h2>
+
+        <button id="closeMenu">
+
+            <i data-lucide="x"></i>
+
+        </button>
+
+    </div>
+
+    <nav class="p-6">
+
+        <ul class="space-y-6 text-lg">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="services.html">Services</a></li>
+
+            <li><a href="properties.html">Properties</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+        <div class="mt-10 space-y-4">
+
+            <a href="tel:8838957874"
+                class="block text-center border border-gold rounded-full py-3">
+
+                Call Now
+
+            </a>
+
+            <a href="contact.html"
+                class="block text-center bg-gold text-white rounded-full py-3">
+
+                Enquire Now
+
+            </a>
+
+        </div>
+
+    </nav>
+
+</aside>
